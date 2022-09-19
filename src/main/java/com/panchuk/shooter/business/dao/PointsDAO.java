@@ -11,10 +11,7 @@ import java.util.List;
 
 public class PointsDAO implements DAO {
 
-    private final EntityManager em;
-
-    public PointsDAO() {
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("persistence");
+ emf = Persistence.createEntityManagerFactory("persistence");
         em = emf.createEntityManager();
     }
 
