@@ -1,21 +1,4 @@
-package com.panchuk.shooter.business.model;
 
-import lombok.*;
-
-import javax.persistence.*;
-import java.io.Serializable;
-
-@Entity
-@Table(name = "shots")
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
-
-@Getter
-@Setter
-@ToString
-public class Point implements Serializable {
-//    @Id
 //    @GeneratedValue(strategy = GenerationType.SEQUENCE)
 //    @Column(nullable = true, name = "id")
     @Id
