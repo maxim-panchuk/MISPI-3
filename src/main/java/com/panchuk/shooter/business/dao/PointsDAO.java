@@ -1,19 +1,5 @@
 package com.panchuk.shooter.business.dao;
 
-import com.panchuk.shooter.business.model.Point;
-
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
-import javax.persistence.Query;
-import java.util.ArrayList;
-import java.util.List;
-
-public class PointsDAO implements DAO {
-
- emf = Persistence.createEntityManagerFactory("persistence");
-        em = emf.createEntityManager();
-    }
 
     public void add(Point point) {
         try {
