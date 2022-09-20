@@ -16,7 +16,6 @@ import javax.inject.Named;
 @RequestScoped
 @NoArgsConstructor
 public class UserInput {
-    private String xVal;
-    private String yVal;
+    private String xVal
     private String rVal;
 }
